@@ -6,6 +6,10 @@
     $ ln -s /etc/httpd2/conf/sites-available/default.conf 00000-default.conf
     $ ln -s /etc/httpd2/conf/sites-available/ports_all.conf ports_all.conf
 
+    $ grep sites-enabled /etc/httpd2/conf/httpd2.conf
+    #Include conf/sites-enabled/*.conf
+    Include /home/www/.sites/sites-enabled/*.conf
+
     $ cat >/home/st/www/.sites/sites-enabled/test0.local.conf
 <VirtualHost *>
     ServerAdmin webmaster@webserver.local
