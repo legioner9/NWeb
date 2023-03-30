@@ -1,0 +1,3 @@
+# [Станислав Кузнецов](https://www.youtube.com/@user-qz5qv6uc8y/playlists)
+## [Linux Ubuntu](https://www.youtube.com/playlist?list=PL9x2twfbtCCNL4KXsDTpa3i9S2YgpY2AM)
+### [Installing web-server Nginx on Linux Ubuntu and publishing web-site](https://www.youtube.com/watch?v=0GVrh18Nfmc&amp;list=PL9x2twfbtCCNL4KXsDTpa3i9S2YgpY2AM&amp;index=2)

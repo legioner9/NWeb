@@ -1,0 +1,58 @@
+    sudo apt-get install nginx curl mc php7 php7 php7-bz2 php7-curl php7-exif php7-mbstring php7-fileinfo php7-fpm-fcgi php7-gd php7-imagick php7-intl php7-mcrypt php7-openssl php7-pcntl php7-pdo php7-pdo_mysql php7-readline php7-ssh2 php7-xmlreader php7-xsl php7-yaml php7-zip php7-mysqli
+
+    sudo systemctl enable php7-fpm
+    sudo systemctl start php7-fpm
+    
+    sudo systemctl enable nginx
+    sudo systemctl start nginx
+
+    $ sudo systemctl enable php7-fpm
+    Synchronizing state of php7-fpm.service with SysV service script with /lib/systemd/systemd-sysv-install.
+    Executing: /lib/systemd/systemd-sysv-install enable php7-fpm
+    Created symlink /etc/systemd/system/multi-user.target.wants/php7-fpm.service → /lib/systemd/system/php7-fpm.service.
+
+    $ sudo systemctl start php7-fpm
+
+    $ sudo systemctl enable nginx
+    Synchronizing state of nginx.service with SysV service script with /lib/systemd/systemd-sysv-install.
+    Executing: /lib/systemd/systemd-sysv-install enable nginx
+    Created symlink /etc/systemd/system/multi-user.target.wants/nginx.service → /lib/systemd/system/nginx.service.
+
+    $ sudo systemctl start nginx
+
+    $ sudo ln -s /etc/nginx/sites-available.d/default.conf /etc/nginx/sites-enabled.d
+
+    $ sudo vim /etc/nginx/sites-available.d/default.conf
+
+server {
+        listen 80 default_server;
+        listen [::]:80 default_server;
+
+
+        root /home/st/REPOBARE/_repo/NWeb/scena;
+
+        # Add index.php to the list if you are using PHP
+        index index.php index.html index.htm index.nginx-debian.html;
+
+        server_name _;
+
+        location / {
+                try_files $uri $uri/ =404;
+        }
+
+location ~ \.php$ {
+include fastcgi_params;
+fastcgi_pass unix:/run/php7-fpm/php7-fpm.sock;
+fastcgi_param SCRIPT_FILENAME $document_root/$fastcgi_script_name;
+}
+
+}
+
+    $ echo "<h1>NGINX INSTALLED</h1>" | sudo tee /home/st/REPOBARE/_repo/NWeb/scena/index.html
+
+    http://192.168.1.100
+    NGINX INSTALLED
+
+    $ sudo systemctl restart nginx
+
+    echo "<?php echo phpinfo(); ?>" | sudo tee /var/www/html/t.php
