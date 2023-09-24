@@ -1,0 +1,16 @@
+<div class="three columns"><small>
+    <a href="http://tekeye.uk/md"><img title="↓markdown↓ CMS" alt="Small markdown CMS Logo" src="/md/images/markdown-cms-logo-tiny.png"/> Powered by ↓markdown↓ CMS</a><br/>
+    <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#100;&#097;&#110;&#064;&#116;&#101;&#107;&#101;&#121;&#101;&#046;&#117;&#107;?subject=↓markdown↓ CMS Enquiry">&#100;&#097;&#110;&#064;&#116;&#101;&#107;&#101;&#121;&#101;&#046;&#117;&#107;</a>
+</small></div>
+<div class="three columns"><small>
+    <a href="http://tekeye.uk/md_cms/about-markdown-cms">About</a><br/>
+    <a href="/README">README</a>
+</small></div>
+<div class="three columns"><small>
+    <a href="http://tekeye.uk/downloads/markdown-cms.zip">Source Code</a><br/>
+    <a href="/md/markdown-cms-license">License</a><br/>
+</small></div>
+<div class="three columns"><small>
+    <a href="https://github.com/GR8DAN/markdown-CMS">GitHub</a><br/>
+    &copy; 2015-2023 Daniel S. Fowler
+</small></div>
