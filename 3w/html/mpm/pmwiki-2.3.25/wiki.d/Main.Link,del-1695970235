@@ -1,0 +1,18 @@
+version=pmwiki-2.3.25 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.5.717 Yowser/2.5 Safari/537.36
+author=
+charset=ISO-8859-1
+csum=
+ctime=1695970166
+host=127.0.0.1
+name=Main.Link
+rev=2
+targets=
+text=delit
+time=1695970203
+author:1695970203=
+diff:1695970203:1695970166:=1d0%0a%3c delit%0a\ No newline at end of file%0a
+host:1695970203=127.0.0.1
+author:1695970166=
+diff:1695970166:1695970166:=
+host:1695970166=127.0.0.1

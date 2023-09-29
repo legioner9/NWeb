@@ -1,0 +1,15 @@
+version=pmwiki-2.3.25 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 YaBrowser/23.7.5.717 Yowser/2.5 Safari/537.36
+author=
+charset=ISO-8859-1
+csum=
+ctime=1695970994
+host=127.0.0.1
+name=Profiles.Profiles
+rev=1
+targets=
+text=ST - it's me
+time=1695970994
+author:1695970994=
+diff:1695970994:1695970994:=1d0%0a%3c ST - it's me%0a\ No newline at end of file%0a
+host:1695970994=127.0.0.1
