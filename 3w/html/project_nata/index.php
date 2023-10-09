@@ -4,10 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Мы рады видеть вас на нашем сайте!</title>
-    <link rel="next" href="photos/" > 
-    <?php
-                include '/home/st/REPOBARE/_repo/NWeb/3w/html/project_nata/photos/';
-                ?>
 
     <style>
         /* Стили для главной страницы */
